@@ -19,13 +19,13 @@ l	symbolic link
 p	pipeline
 s	socket
 
-# VAR:-SOMETHING declaration temporarily sets value of VAR to SOMETHING if and only
-# if the value of VAR is empty. If VAR is not empty to begin with, VAR:-SOMETHING
-# declaration retains VAR's original value.
+VAR:-SOMETHING declaration temporarily sets value of VAR to SOMETHING if and only
+if the value of VAR is empty. If VAR is not empty to begin with, VAR:-SOMETHING
+declaration retains VAR's original value.
 
-# VAR:=SOMETHING declaration permanently sets value of VAR to SOMETHING if and only
-# if the value of VAR is empty. If VAR is not empty to begin with, VAR:=SOMETHING
-# declaration retains VAR's original value.
+VAR:=SOMETHING declaration permanently sets value of VAR to SOMETHING if and only
+if the value of VAR is empty. If VAR is not empty to begin with, VAR:=SOMETHING
+declaration retains VAR's original value.
 
 Repeating the previous command
 Suppose that one has already executed a rather long command (e.g., cd /usr/local/share). Further suppose that one needs to re-execute the same command once more. The Linux OS provides the following ways to accomplish this task.
